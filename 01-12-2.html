@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="script/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <!-- 
+        m : margin
+        p : padding
+        t : top
+        b : bottom
+        s : left
+        e : right
+        x : left right (x축)
+        y : top bottom (y축)
+
+    0, 1, 2, 3, 4, 5, auto (font-size 16px 기준)
+        0 : 0
+        1 : 0.25rem = 4px
+        2 : 0.5rem = 8px
+        3 : 1rem = 16px
+        4 : 1.5rem = 24px
+        5 : 3rem = 48px
+        auto : margin 자동 세팅
+    -->
+
+    <div class="container border mt-2 py-4">
+        <h2>버튼스타일</h2>
+        <button type="button" class="btn">Basic</button>
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success mx-4">Success</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-link">Link</button>
+    </div><!-- container -->
+
+    <div class="container border my-2">
+        <a href="#" class="btn btn-warning">link-button</a>
+        <input type="button" value="Input Button" class="btn btn-dark">
+        <input type="submit" name="" id="" value="전송" class="btn btn-primary">
+        <input type="reset" value="reset" class="btn btn-danger">
+        <p class="btn btn-secondary mt-3">More View</p>
+    </div><!-- container -->
+
+    <div class="container border py-4">
+        <h2>버튼 윤곽선</h2>
+        <button class="btn btn-outline-primary">Primary</button>
+        <button class="btn btn-outline-secondary btn-lg">Secondary</button>
+        <button class="btn btn-outline-success">Success</button>
+        <button class="btn btn-outline-info">Info</button>
+        <button class="btn btn-outline-warning btn-sm">Warning</button>
+        <button class="btn btn-outline-danger">Danger</button>
+        <button class="btn btn-outline-dark">Dark</button>
+        <button class="btn btn-outline-light">Light</button>
+    </div><!-- container -->
+
+    <div class="container border my-2 py-4">
+        <button class="btn btn-block btn-primary btn-lg py-3">Full-Width 01</button>
+        <button class="btn btn-block btn-primary btn-lg py-3">Full-Width 02</button>
+        <button class="btn btn-block btn-primary btn-lg py-3">Full-Width 03</button>
+    </div><!-- container -->
+
+    <div class="container border py-4">
+        <button class="btn btn-success active">공지사항</button> <!-- active : 활성화 -->
+        <button class="btn btn-success" disabled>갤러리</button> <!-- disabled : 사용불가상태 (class 밖에 입력) -->
+
+        <a href="http://www.naver.com" class="btn btn-outline-success" disabled>Naver</a>
+    </div><!-- container -->
+</body>
+</html>
