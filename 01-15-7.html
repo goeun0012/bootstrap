@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="script/bootstrap.bundle.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <p class="border my-3">Left-align (default)</p>
+        <ul class="nav">
+            <li class="nav-item"><a href="#" class="nav-link">link-1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link-2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link-3</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link-4</a></li>
+        </ul>
+
+        <p class="border text-center my-3">Center-align</p>
+        <ul class="nav justify-content-center">
+            <li class="nav-item"><a href="#" class="nav-link">link-1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link-2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link-3</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link-4</a></li>
+        </ul>
+
+        <p class="border text-right my-3">Right-align</p>
+        <ul class="nav justify-content-end">
+            <li class="nav-item"><a href="#" class="nav-link">link-1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link-2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link-3</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link-4</a></li>
+        </ul>
+
+        <p class="border my-3">column</p>
+        <ul class="nav flex-column">
+            <li class="nav-item"><a href="#" class="nav-link">link-1</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link-2</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link-3</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">link-4</a></li>
+        </ul>
+    </div><!-- container -->
+
+    <div class="container my-3">
+        <h2 class="my-3">toggle tabs</h2>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a href="#link01" class="nav-link active" data-toggle="tab">link-1</a></li>
+            <li class="nav-item"><a href="#link02" class="nav-link" data-toggle="tab">link-2</a></li>
+            <li class="nav-item"><a href="#link03" class="nav-link" data-toggle="tab">link-3</a></li>
+            <li class="nav-item"><a href="#link04" class="nav-link" data-toggle="tab">link-4</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="link01" class="container tab-pane active">
+                <h3>1</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro facere fugit incidunt omnis natus
+                    sed molestias qui, odio assumenda quisquam laudantium ex earum ea recusandae unde ducimus, autem ad
+                    et!
+                </p>
+            </div>
+            <div id="link02" class="container tab-pane fade">
+                <h3>2</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro facere fugit incidunt omnis natus
+                    sed molestias qui, odio assumenda quisquam laudantium ex earum ea recusandae unde ducimus, autem ad
+                    et!
+                </p>
+            </div>
+            <div id="link03" class="container tab-pane fade">
+                <h3>3</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro facere fugit incidunt omnis natus
+                    sed molestias qui, odio assumenda quisquam laudantium ex earum ea recusandae unde ducimus, autem ad
+                    et!
+                </p>
+            </div>
+            <div id="link04" class="container tab-pane fade">
+                <h3>4</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro facere fugit incidunt omnis natus
+                    sed molestias qui, odio assumenda quisquam laudantium ex earum ea recusandae unde ducimus, autem ad
+                    et!
+                </p>
+            </div>
+        </div>
+    </div><!-- container -->
+</body>
+</html>
